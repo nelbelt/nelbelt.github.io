@@ -1,0 +1,62 @@
+﻿body{
+	height: 800px;
+	width: 800px;
+	clear: both;
+	float: none;
+	margin-left: 300px;
+	font-family: Arial, sans-serif;
+   	font-size: 15px;
+	background-color: black;
+}
+
+a:link { text-decoration:none; color:#EEEEEE; }
+a:active { text-decoration:none; color:#000000; } 
+a:visited { text-decoration:none; color:yellow; }
+a:hover { color:#36393D; background-color:#DD8E39; padding:5px;} 
+
+
+li{	display:inline; padding-left:30px; margin-left:5px;}
+li.uno{	padding-left:25px; line-height:30px;}
+h1{ 	font-family:Times,Arial; font-size:65px; color:#F7AF2A; padding-left:30px; padding-top:20px;
+	line-height:5px; 
+}
+
+h1.blanco{ 
+	font-family:Times,Arial; font-size:65px; color:#FFFFFF; padding-left:30px;
+}
+
+#contenedor{
+	width: 800px;
+	height: 800px;
+	float: left;
+}
+header{
+	width: 800px;
+	height: 200px;
+	float: left;
+	background-image: url(mamifero.jpg)
+}
+nav{
+	width: 800px;
+	height: 23px;
+	background-color: #694204;
+	float: left;
+	padding-top:5px;	
+}
+#menulateral{
+	width: 189px;
+	height: 200px;
+	background-color: #9C917E;
+	float: left;
+}
+#contenido{
+	width: 550px;
+	height: 200px;
+	background-color: #E6EBF2;
+	float: left;
+	padding:30px;
+	font-size:14px;
+	line-height:22px;
+	color:#3F2830;
+
+}
